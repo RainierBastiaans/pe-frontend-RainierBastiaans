@@ -8,6 +8,7 @@ import CollectionForm from './Form'
 class App extends Component{
 
     API_URL="http://localhost:8080"
+    //vervang url door ip adres bs2 server
 
     state = {
       products: [],
