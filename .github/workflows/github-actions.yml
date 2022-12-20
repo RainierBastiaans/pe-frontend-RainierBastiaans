@@ -2,7 +2,7 @@ name: CICD-frontend
 run-name: ${{ github.actor }} is building a container on ${{ github.repository }} repository.
 on:
   push:
-  pull-request:
+  pull_request:
 
 jobs:
   build:
